@@ -2,7 +2,8 @@
 
 The published privacy policy for the Pizza Bench iOS app. One static page, no build step.
 
-Live at: `https://<your-github-username>.github.io/pizza-bench-privacy/`
+**Live at: https://tomerkoresh61-jpg.github.io/pizza-bench-privacy/**
+Published 16 August 2026. This is the URL filed with Apple — it must not change.
 
 ---
 
