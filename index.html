@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy — Pizza Bench</title>
+    <meta name="description" content="What Pizza Bench collects, what it doesn't, and where it goes." />
+    <!--
+      Plain HTML on purpose — no Jekyll.
+
+      GitHub Pages will happily build a Jekyll site, but a Jekyll build can fail
+      silently on a bad theme or a stray character, and the result is a 404
+      where a privacy policy used to be. A dead policy URL is a removal reason
+      at Apple. Static HTML cannot fail to build.
+
+      Colours follow the app's own palette so the page reads as part of it.
+    -->
+    <style>
+      :root {
+        --bg: #fff9f2;
+        --surface: #ffffff;
+        --ink: #2b2018;
+        --ink-soft: #6b5a4c;
+        --line: #e6dbcf;
+        --accent: #d64b2a;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        padding: 0 20px 80px;
+        background: var(--bg);
+        color: var(--ink);
+        font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        -webkit-text-size-adjust: 100%;
+      }
+      main { max-width: 680px; margin: 0 auto; }
+      header { padding: 56px 0 8px; }
+      h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.01em; }
+      h2 {
+        font-size: 21px;
+        margin: 44px 0 12px;
+        padding-top: 20px;
+        border-top: 1px solid var(--line);
+        letter-spacing: -0.01em;
+      }
+      h3 { font-size: 17px; margin: 26px 0 8px; }
+      p, li { color: var(--ink); }
+      .updated { color: var(--ink-soft); font-size: 15px; margin: 0; }
+      .lede {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 20px 22px;
+        margin: 28px 0 0;
+      }
+      .lede p:first-child { margin-top: 0; }
+      .lede p:last-child { margin-bottom: 0; }
+      ul { padding-left: 22px; }
+      li { margin: 7px 0; }
+      code {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 5px;
+        padding: 1px 5px;
+        font-size: 14px;
+        white-space: nowrap;
+      }
+      strong { font-weight: 600; }
+      a { color: var(--accent); }
+      footer {
+        margin-top: 52px;
+        padding-top: 20px;
+        border-top: 1px solid var(--line);
+        color: var(--ink-soft);
+        font-size: 15px;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #17120e;
+          --surface: #1f1913;
+          --ink: #f2e9df;
+          --ink-soft: #a8968a;
+          --line: #362b22;
+          --accent: #ff7a55;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Privacy Policy — Pizza Bench</h1>
+        <p class="updated">Last updated: 11 August 2026</p>
+      </header>
+
+      <p>
+        Pizza Bench is made by one person. This policy is short because the app collects almost nothing, and everything
+        below is a description of what the code actually does — not a template.
+      </p>
+
+      <div class="lede">
+        <p>
+          <strong>Your recipes, your bakes, your photos and your notes never leave your phone.</strong> There is no
+          account, no login, and no cloud copy of anything you make.
+        </p>
+        <p>
+          Three things do leave your phone: a small set of anonymous usage events, and — only if you type them in
+          yourself — your email address and any feedback you write.
+        </p>
+      </div>
+
+      <h2>What stays on your device, always</h2>
+      <ul>
+        <li>Every recipe and formula you create or edit</li>
+        <li>Every bake you log, including the timings you tap</li>
+        <li><strong>Every photo you take.</strong> Photos are never uploaded anywhere</li>
+        <li>Your kitchen profile — your ovens, their temperatures, your unit preferences</li>
+        <li>Your evaluations, findings and version history</li>
+      </ul>
+      <p>
+        This information is stored only in the app's own storage on your phone. Deleting the app deletes all of it
+        permanently. We cannot see it, recover it, or restore it for you.
+      </p>
+
+      <h2>What is sent</h2>
+
+      <h3>Anonymous usage events</h3>
+      <p>Nine events are sent so I can see where people get stuck:</p>
+      <p>
+        <code>app_open</code> <code>onboarding_completed</code> <code>bake_started</code> <code>bake_completed</code>
+        <code>evaluation_saved</code> <code>diagnosis_viewed</code> <code>pro_viewed</code> <code>pro_clicked</code>
+        <code>pro_email_submitted</code>
+      </p>
+      <p>
+        Each carries an <strong>anonymous install identifier</strong> — 16 random characters generated on your device.
+        It is not your name, your account or your device ID, it is not shared with anyone, and reinstalling the app
+        generates a new one. It exists only so that twenty events from one person are not counted as twenty people.
+      </p>
+      <p>
+        Each also carries which version of the app you are running, plus small non-personal details of the event itself
+        — for example the oven temperature you chose, or whether a bake was rated a keeper.
+      </p>
+      <p>
+        <strong>What is deliberately not sent:</strong> the content of your recipes, your photos, your notes, your bake
+        history, and detailed records of how you move around the app.
+      </p>
+
+      <h3>Your email address — only if you give it</h3>
+      <p>Two places in the app ask for an email, and both are optional:</p>
+      <ul>
+        <li>The <strong>Pro</strong> screen, if you want to be told when it is ready</li>
+        <li>The <strong>feedback</strong> form, if you want a reply</li>
+      </ul>
+      <p>
+        It is used for that and nothing else. It is not added to a mailing list, not sold, not shared, and not used for
+        advertising.
+      </p>
+
+      <h3>Feedback you write</h3>
+      <p>
+        If you use the feedback form, what you write is sent along with the screen you were on. That is the point of the
+        form.
+      </p>
+
+      <h2>Where it goes</h2>
+      <p>
+        To a private Google Sheet that only I can access. There is no analytics company involved, no advertising
+        network, and no third-party tracking SDK anywhere in this app.
+      </p>
+
+      <h2>What is never collected</h2>
+      <p>
+        No location. No contacts. No device identifiers for advertising. No browsing or cross-app activity. Nothing is
+        sold or shared with anyone, for any purpose.
+      </p>
+
+      <h2>Camera and photo permissions</h2>
+      <p>
+        The app asks for camera and photo library access so you can attach photos to a bake. Those photos are saved on
+        your phone and go nowhere else. You can refuse the permission and the app still works — you simply won't have
+        photos to compare.
+      </p>
+
+      <h2>Notifications</h2>
+      <p>
+        Notifications are scheduled and delivered entirely on your device — nothing is sent to a server to make them
+        appear. They tell you when a stage of your bake is done.
+      </p>
+
+      <h2>Deleting your data</h2>
+      <p><strong>On your phone:</strong> delete the app. Everything the app stored locally goes with it.</p>
+      <p>
+        <strong>Anything you sent:</strong> email
+        <a href="mailto:tomerkoresh61@gmail.com">tomerkoresh61@gmail.com</a> and ask, or use the feedback form in the
+        app. I will delete your email address and any feedback you sent. Since usage events are anonymous, they cannot
+        be traced back to you — but if you tell me your install identifier I will remove those rows too.
+      </p>
+
+      <h2>Children</h2>
+      <p>Pizza Bench is not directed at children and is not designed for them.</p>
+
+      <h2>If this policy changes</h2>
+      <p>
+        The date at the top changes with it. If a change ever means collecting something new, it will be requested in
+        the app first — it will not happen quietly.
+      </p>
+
+      <h2>Contact</h2>
+      <p><a href="mailto:tomerkoresh61@gmail.com">tomerkoresh61@gmail.com</a></p>
+
+      <footer>Pizza Bench · Privacy Policy · Last updated 11 August 2026</footer>
+    </main>
+  </body>
+</html>
